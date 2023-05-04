@@ -3,7 +3,6 @@ module.exports = function (eleventyConfig) {
   // Copy `img/` to `_site/img`
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/fonts");
-  eleventyConfig.addPassthroughCopy("./style-stage.json");
   eleventyConfig.addPassthroughCopy("./src/**/*.js");
   eleventyConfig.addWatchTarget("./src/**/*.html");
   eleventyConfig.addWatchTarget("./src/**/*.js");
@@ -15,3 +14,4 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
+
