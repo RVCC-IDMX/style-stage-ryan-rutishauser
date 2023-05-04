@@ -6,6 +6,8 @@
   <title>Style Stage - With Reset & Mobile First</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./sass/base/reset.css">
+  <!-- <link rel="stylesheet" href="./sass/base/_reset.scss"> -->
 </head>
 
 <body>
@@ -73,14 +75,14 @@
             `.skip-link`!
           </p>
         </section>
-        <section class="container">
+        <section class="modern-container">
           <h2>Modern CSS Under the Spotlight</h2>
           <p>
             Modern CSS has increased and improved the available CSS properties and layout
             behaviors, and browser support is nearly in sync for most high-touch features.
           </p>
           <p>Some examples of modern CSS include:</p>
-          <ul>
+          <ul class="modern-css">
             <li>Flexbox</li>
             <li>Grid</li>
             <li>custom variables</li>
@@ -142,7 +144,7 @@
         </section>
       </article>
       <article id="contribute">
-        <section class="container">
+        <section class="contribute-container">
           <h2>Contribute</h2>
           <p>All who enjoy the craft of writing CSS are welcome to contribute!</p>
           <p>
@@ -200,7 +202,7 @@
           <span>Website:</span> <span><a href="https://moderncss.dev">ModernCSS.dev</a></span>
         </li>
       </ul>
-      <a href="/styles/css/main-stage.css">View Stylesheet</a>
+      <a class="view-sylesheet" href="/styles/css/main-stage.css">View Stylesheet</a>
     </div>
   </aside>
   <aside id="styles">
