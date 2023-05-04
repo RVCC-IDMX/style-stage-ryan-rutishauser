@@ -1,5 +1,6 @@
 /* main */
 /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1600,24,1.5,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+@import "./base/reset";
 
 :root {
   --step--2: clamp(0.67rem, calc(0.70rem + -0.03vw), 0.69rem);
@@ -15,22 +16,22 @@
 @font-face{
   font-family: "Heebo";
   font-weight: 400;
-  src: url('../fonts/heebo-variablefont_wght-webfont.woff2') format('woff2'),
-       url('../fonts/heebo-variablefont_wght-webfont.woff') format('woff');
+  src: url('https://res.cloudinary.com/dcckdwttx/raw/upload/v1683230687/heebo-variablefont_wght-webfont_hcafzh.woff2') format('woff2'),
+       url('https://res.cloudinary.com/dcckdwttx/raw/upload/v1683230688/heebo-variablefont_wght-webfont_b0xtec.woff') format('woff');
 }
 
 @font-face{
   font-family: "Maitree";
   font-weight: 400;
-  src: url('../fonts/maitree-regular-webfont.woff2') format('woff2'),
-       url('../fonts/maitree-regular-webfont.woff') format('woff');
+  src: url('https://res.cloudinary.com/dcckdwttx/raw/upload/v1683230688/maitree-regular-webfont_dcgzeq.woff2') format('woff2'),
+       url('https://res.cloudinary.com/dcckdwttx/raw/upload/v1683230688/maitree-regular-webfont_hmxdg7.woff') format('woff');
 }
 
 @font-face{
   font-family: "Beba";
   font-weight: 400;
-  src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
-       url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+  src: url('https://res.cloudinary.com/dcckdwttx/raw/upload/v1683230687/bebasneue-regular-webfont_tcoyb5.woff2') format('woff2'),
+       url('https://res.cloudinary.com/dcckdwttx/raw/upload/v1683230688/bebasneue-regular-webfont_yy5jiz.woff') format('woff');
 }
 
 header{
